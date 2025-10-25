@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# lightning ai
+.lightning*/
+.idea*/
+.cursor-server
+.vscode-server
+.windsurf-server
+.vscode/settings.json
