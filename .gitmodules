@@ -1,0 +1,8 @@
+[submodule "quantum-frameworkMindQuantum"]
+	path = quantum-frameworkMindQuantum
+	url = https://gitee.com/mindspore/mindquantum.git
+	branch = r0.6
+[submodule "quantum-framework/MindQuantum"]
+	path = quantum-framework/MindQuantum
+	url = https://gitee.com/mindspore/mindquantum.git
+	branch = r0.6
