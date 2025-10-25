@@ -3,5 +3,18 @@ name = "quantum-benchmark"
 version = "0.1.0"
 description = "benchmark of popilar quantum sumulation framework around the world"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "mindquantum @ file:///teamspace/studios/this_studio/quantum-framework/MindQuantum",
+    "mindspore",
+]
+
+[tool.uv.sources]
+# "MindSpore-cpu"
+# For users outside of CUDA eco, redirect torch.index to "pytorch-cpu"
+mindspore = { index = "MindSpore-cpu" }
+
+[[tool.uv.index]]
+name = "MindSpore-cpu"
+url = "https://repo.huaweicloud.com/repository/pypi/simple/"
+explicit = true
